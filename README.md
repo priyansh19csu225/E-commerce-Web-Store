@@ -1,4 +1,13 @@
-# node-js-getting-started
+#E-commerce Web Store
+
+https://priyansh19csu225.github.io/E-commerce-Web-Store-frontend/login.html
+
+This E-commerce Web store was done by group of 3 students. I was solely responsible for the implementation of services/API used in this Project at the backend. 
+
+The link to source code for frontend of this is https://github.com/priyansh19csu225/E-commerce-Web-Store-frontend
+
+
+## node-js-getting-started
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
 

@@ -1,0 +1,10 @@
+const express = require("express");
+const checkAdmin = require("../../utils/middlewares/authAdmin");
+const router = express.Router();
+const { create , display , find, deleteproduct } = require("../../controllers/product");
+const { CREATE, DISPLAY, FIND , DELETE } = require("../../utils/config").ROUTES.PRODUCT;
+router.get(DISPLAY, display);
+router.get(FIND , find);
+router.post(CREATE , checkAdmin , create);
+router.post(DELETE , checkAdmin , deleteproduct);
+module.exports = router;

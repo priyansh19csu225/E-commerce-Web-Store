@@ -27,7 +27,6 @@ const userController = {
           .status(NOT_FOUND)
           .json({ message: messageBundle["login.invaliduser"] });
       }
-      console.log("JSON is ", json);
     } catch (err) {
       response
         .status(SERVER_ERROR)

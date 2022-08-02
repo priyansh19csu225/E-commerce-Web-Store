@@ -20,7 +20,6 @@ const productController = {
         .status(NOT_FOUND)
         .json({ message: messageBundle["find.fail"] });
     }
-    console.log("JSON is ", json);
   } catch (err) {
     response
       .status(SERVER_ERROR)
@@ -43,7 +42,6 @@ const productController = {
           .status(NOT_FOUND)
           .json({ message: messageBundle["find.fail"] });
       }
-      console.log("JSON is ", json);
     } catch (err) {
       response
         .status(SERVER_ERROR)
